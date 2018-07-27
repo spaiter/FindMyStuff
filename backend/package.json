@@ -4,7 +4,7 @@
   "description": "Typescript clean architecture implementantion.",
   "license": "MIT",
   "scripts": {
-    "start": "gulp",
+    "start-api": "gulp",
     "test": "jest --forceExit",
     "lint": "gulp tslint",
     "build": "gulp build",

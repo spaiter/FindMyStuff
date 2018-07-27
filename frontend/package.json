@@ -1,18 +1,21 @@
 {
   "name": "FindMyStuff",
   "nativescript": {
-    "id": "org.nativescript.FindMyStuff"
+    "id": "org.nativescript.FindMyStuff",
+    "tns-ios": {
+      "version": "4.1.1"
+    }
   },
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start-web": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "android": "tns run android --bundle",
-    "ios": "tns run ios --bundle"
+    "start-android": "tns run android --bundle",
+    "start-ios": "tns run ios --bundle"
   },
   "private": true,
   "dependencies": {
@@ -30,6 +33,7 @@
     "nativescript-theme-core": "~1.0.4",
     "reflect-metadata": "~0.1.8",
     "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.2.2",
     "tns-core-modules": "~4.1.0",
     "zone.js": "^0.8.26"
   },
