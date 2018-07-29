@@ -1,62 +1,55 @@
 {
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {
+    "no-unused-expression": true
+  },
   "rules": {
-    "class-name": true,
-    "comment-format": [true,
-      "check-space"
-    ],
-    "curly": [true, "ignore-same-line"],
-    "indent": [true,
-      "spaces"
-    ],
-    "newline-before-return": true,
-    "jsdoc-format": true,
-    "no-inferrable-types": true,
-    "no-internal-module": true,
-    "no-null-keyword": false,
-    "no-switch-case-fall-through": true,
-    "no-trailing-whitespace": [true, "ignore-template-strings"],
-    "no-var-keyword": true,
-    "one-line": [true,
-      "check-open-brace",
-      "check-whitespace",
-      "check-catch",
-      "check-else"
-    ],
-    "prefer-const": true,
-    "quotemark": [true,
-      "single",
-      "avoid-escape"
-    ],
-    "semicolon": [true, "always", "ignore-bound-class-methods"],
-    "triple-equals": true,
-    "typedef-whitespace": [
+    "eofline": false,
+    "quotemark": [
       true,
-      {
-        "call-signature": "nospace",
-        "index-signature": "nospace",
-        "parameter": "nospace",
-        "property-declaration": "nospace",
-        "variable-declaration": "nospace"
-      },
-      {
-        "call-signature": "onespace",
-        "index-signature": "onespace",
-        "parameter": "onespace",
-        "property-declaration": "onespace",
-        "variable-declaration": "onespace"
-      }
+      "single"
     ],
-    "whitespace": [true,
-      "check-branch",
-      "check-decl",
-      "check-operator",
-      "check-module",
-      "check-separator",
-      "check-type"
+    "indent": false,
+    "member-access": [
+      false
+    ],
+    "ordered-imports": [
+      false
     ],
     "max-line-length": [
       true,
-      120
+      150
+    ],
+    "member-ordering": [
+      false
+    ],
+    "curly": false,
+    "interface-name": [
+      false
+    ],
+    "array-type": [
+      false
+    ],
+    "no-empty-interface": false,
+    "no-empty": false,
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "no-unused-expression": false,
+    "max-classes-per-file": [
+      false
+    ],
+    "variable-name": [
+      false
+    ],
+    "one-line": [
+      false
+    ],
+    "one-variable-per-declaration": [
+      false
     ]
-  }
+  },
+  "rulesDirectory": []
 }
